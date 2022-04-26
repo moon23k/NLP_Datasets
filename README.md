@@ -2,12 +2,48 @@
 
 <br>
 
-**Deep learning models are inevitably data dependent.**  
+## Introduction
 
-**In other words, obtaining good data is the first step in building a good AI Service.**
+Deep learning models are inevitably data dependent.
 
-**In this repo, we look at the Bench Mark data in representative NLP tasks,**
+In other words, obtaining good data is the first step in building a good AI Service.
 
-**and implement the source code that can be used for model training.**
+This repo covers the ways of getting and processing useful dataset on NLP Tasks.
 
-**The directory structure includes reference codes for each NLP task and overall data preprocessing PipeLine for reference.**
+
+
+## Dataset List
+
+### Machine Translation Datasets
+
+1. WMT(En-De)
+
+2. IWSLT(En-De)
+
+3. Mukti30k(En-De)
+
+4. WMT small(En-De)
+  
+5. IWSLT small(En-De)
+
+6. Korean Translation(En-Ko)
+
+
+<br>
+
+### Dialogue Datasets
+
+1. Daily Dialogues
+
+2. Persona Chat
+
+3. Emotional Dialogue
+
+4. HIMYM Scripts
+
+
+<br>
+
+## References
+Parlai
+OpenNMT
