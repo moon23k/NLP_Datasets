@@ -1,48 +1,46 @@
-# NLP_datasets
-
-
-<br>
-
-## Introduction
-
-Deep learning models are inevitably data dependent.
-In other words, obtaining good data is the first step in building a good AI Service.
-This repo covers the ways of getting and processing useful datasets for NLP Tasks.
+## 💾 NLP_datasets
+This repo covers a set of ways to fetch NLP data and process it into a form that the model can take.
 
 <br>
 
-## Dataset List
+## Translation
 
-### Machine Translation Datasets
+**Multi30k**
+<br>
 
-1. WMT14 (En-De)
+**IWSLT**
+<br>
 
-2. IWSLT (En-De)
-
-3. Mukti30k (En-De)
-
-4. Korean Translation (En-Ko)
-
+**WMT14**
 
 <br>
 
-### Dialogue Datasets
 
-1. Daily Dialogues
+## Dialogue
 
-2. Persona Chat
+**Daily**
+<br>
 
-3. Emotional Dialogue
+**Empathetic**
+<br>
 
-4. HIMYM Scripts
+**Persona**
+<br>
+
+**Blended**
+<br>
+
+**HIMYM Script**
 
 <br>
 
-### Text Summarization
+## Summarization
 
 <br>
 
-## References
-Parlai
-OpenNMT
-Huggingface datasets
+### How to use
+```
+git clone https://github.com/moon23k/NLP_datasets
+python3 -m pip freeze >requirements.txt
+bash the_data_you_want/download_dataset.sh
+```
