@@ -1,15 +1,13 @@
-# NMT_Datasets
+## NMT_Datasets
 
-This Dir covers how to download and process Data for Neural Machine Translation Task.
-
-A descripttion of each data is given below.
+This Section covers how to download and process Datasets only for Neural Machine Translation Task. A descripttion for each dataset is given below :)
 
 <br>
 <br>
 
 
-### IWSLT
-
+### IWSLT 2017
+> IWSLT refers to "The International Workshop on Spoken Language Translation". It is is a yearly scientific workshop which is associated with an open evaluation campaign on spoken language translation. Here, we only covers En-De Translation Dataset from "The IWSLT 2017 Evaluation Campaign".
 
 <br>
 
@@ -21,11 +19,8 @@ A descripttion of each data is given below.
 
 <br>
 
-### AIHUB_NMT
-This dataset is the Korean-English translation corpus data provided by the aihub site.
-The original data can be downloaded from the AIHub homepage, and the files in this directory only process the original data.
-
-You can download original zip file [한국어-영어 번역(병렬) 말뭉치](https://aihub.or.kr/aidata/87) via this link.
+### KoEn
+> This dir deals with Korean-English Translation Dataset, which provided from AI_Hub. The original name for this dataset is "한국어-영어 번역(병렬) 말뭉치", and it is available with permission from the AI_Hub web. So, excluding downloading, this dir only covers data processing under the assumption that the original file has been fetched. The original file [한국어-영어 번역(병렬) 말뭉치](https://aihub.or.kr/aihubdata/data/view.do?currMenu=115&topMenu=100&aihubDataSe=realm&dataSetSn=126) can be fetched from this link.
 
 The Dataset consist of 10 sub-datasets, but only uses 7 like below.
 
