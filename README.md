@@ -40,10 +40,12 @@ The total size of data is approximately 1.3M.
 ## Dialogue
 
 **Daily**
+> The dialogues in the dataset reflect our daily communication way and cover various topics about our daily life.
 
 <br>
 
 **Empathetic**
+> The EmpatheticDialogues dataset is a large-scale multi-turn empathetic dialogue dataset collected on the Amazon Mechanical Turk, containing 24,850 one-to-one open-domain conversations. Each conversation was obtained by pairing two crowd-workers: a speaker and a listener. The speaker is asked to talk about the personal emotional feelings. The listener infers the underlying emotion through what the speaker says and responds empathetically. The dataset provides 32 evenly distributed emotion labels.
 
 <br>
 
@@ -56,7 +58,7 @@ The total size of data is approximately 1.3M.
 <br>
 
 
-**HIMYM Script**
+**HIMYM**
 > This Dataset is extracted from the script of the famous sitcom **How I Met Your Mother**. Compared to other dramas or movies with strong genre characteristics, sitcoms mainly use familiar language in everyday life. And in this sitcom, each character has a distinct personality, which is useful data for the model to learn the personality.
 <br>
 
