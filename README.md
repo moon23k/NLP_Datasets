@@ -3,23 +3,22 @@ This repo covers a set of ways to fetch NLP data and process it into a form that
 
 <br>
 
-## NMT_Datasets
+## Translation
 
-
-### IWSLT 2017
+**IWSLT 2017**
 > IWSLT refers to "The International Workshop on Spoken Language Translation". It is is a yearly scientific workshop which is associated with an open evaluation campaign on spoken language translation. Here, we only covers En-De Translation Dataset from "The IWSLT 2017 Evaluation Campaign".
 
 <br>
 
-### Multi30k
+**Multi30k**
 
 <br>
 
-### WMT14
+**WMT14**
 
 <br>
 
-### KoEn
+**KoEn**
 > This dir deals with Korean-English Translation Dataset, which provided from AI_Hub. The original name for this dataset is "한국어-영어 번역(병렬) 말뭉치", and it is available with permission from the AI_Hub web. So, excluding downloading, this dir only covers data processing under the assumption that the original file has been fetched. The original file [한국어-영어 번역(병렬) 말뭉치](https://aihub.or.kr/aihubdata/data/view.do?currMenu=115&topMenu=100&aihubDataSe=realm&dataSetSn=126) can be fetched from this link.
 
 The Dataset consist of 10 sub-datasets, but only uses 7 like below.
@@ -41,22 +40,29 @@ The total size of data is approximately 1.3M.
 ## Dialogue
 
 **Daily**
+
 <br>
 
 **Empathetic**
+
 <br>
 
 **Persona**
+
 <br>
 
 **Blended**
+
 <br>
 
-**HIMYM Script**
 
+**HIMYM Script**
+> This Dataset is extracted from the script of the famous sitcom **How I Met Your Mother**. Compared to other dramas or movies with strong genre characteristics, sitcoms mainly use familiar language in everyday life. And in this sitcom, each character has a distinct personality, which is useful data for the model to learn the personality.
 <br>
 
 ## Summarization
+
+**CNN_Daily**
 
 <br>
 
