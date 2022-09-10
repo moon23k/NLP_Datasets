@@ -1,21 +1,13 @@
-#!bin/bash
-mkdir -p multi30k 
+#!/bin/bash
+mkdir -p data
+cd data
 
-git clone --recursive https://github.com/multi30k/dataset.git multi30k-dataset
-mv multi30k-dataset/data/task1/raw multi30k
-rm -r multi30k-dataset
+splits=(train val test_2016_flickr)
+langs=(en de)
 
-cd multi30k/raw
-ls | grep -P '^((?!en|de).)*$' | xargs rm
-ls | grep -P "2017" | xargs rm 
-ls | grep -P "2018" | xargs rm
-
-mv raw/* .
-rm -rf raw
-
-gzip -d train* val* test*
-
-mv val.en valid.en
-mv val.de valid.de
-mv test_2016_flickr.en test.en
-mv test_2016_flickr.de test.de
+for split in "${splits[@]}"; do
+    for lang in "${langs[@]}"; do
+        wget https://github.com/multi30k/dataset/raw/master/data/task1/raw/${split}.${lang}.gz
+        gunzip ${split}.${lang}.gz
+    done
+done
