@@ -21,13 +21,15 @@ This repo covers a set of ways to fetch NLP data and process it into a form that
 **KoEn**
 > This dir deals with Korean-English Translation Dataset, which provided from AI_Hub. The original name for this dataset is "한국어-영어 번역(병렬) 말뭉치", and it is available with permission from the AI_Hub web. So, excluding downloading, this dir only covers data processing under the assumption that the original file has been fetched. The original file [한국어-영어 번역(병렬) 말뭉치](https://aihub.or.kr/aihubdata/data/view.do?currMenu=115&topMenu=100&aihubDataSe=realm&dataSetSn=126) can be fetched from this link.
 
-The Dataset consist of 10 sub-datasets, but only uses 7 like below.
+<br>
 
-    * 1_구어체(1).xlsx, 1_구어체(2).xlsx 
-    * 2_대화체.xlsx
-    * 3.문어체_뉴스(1).xlsx, 3.문어체_뉴스(2).xlsx, 3.문어체_뉴스(3).xlsx, 3.문어체_뉴스(4).xlsx
+The Dataset consist of 10 sub-datasets, but only uses 7 like below. And the total size of data is approximately 1.3M.
 
-The total size of data is approximately 1.3M.
+**`1_구어체(1).xlsx`** &nbsp;&nbsp; **`1_구어체(2).xlsx`** &nbsp;&nbsp; **`2_대화체.xlsx`** &nbsp;&nbsp; 
+
+**`3_문어체_뉴스(1)_200226.xlsx`** &nbsp;&nbsp; **`3.문어체_뉴스(2).xlsx`** &nbsp;&nbsp; **`3.문어체_뉴스(3).xlsx`** &nbsp;&nbsp; **`3.문어체_뉴스(4).xlsx`**
+
+
 
 
 <br>
