@@ -1,4 +1,5 @@
 #!/bin/bash
+#Adopted from https://github.com/facebookresearch/fairseq/blob/main/examples/translation/prepare-iwslt14.sh
 
 mkdir -p iwslt
 cd iwslt
