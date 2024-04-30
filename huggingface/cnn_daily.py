@@ -27,16 +27,6 @@ def process_summarization_data(data_volumn=101100):
                     y = re.sub(r"\s([.](?:\s|$))", r'\1', y)  #remove whitespace in front of dot
 
                     processed.append({'x': x, 'y': y})
-                    corpus.append(x)
-                    corpus.append(y)
-
-                    #End Condition
-                    volumn_cnt += 1
-            if volumn_cnt == data_volumn:
-                break
-
-    with open('data/summarization/corpus.txt', 'w') as f:
-        f.write('\n'.join(corpus))
     
     return processed           
 
@@ -46,20 +36,7 @@ def process_summarization_data(data_volumn=101100):
 
 
 def main(task):
-
-    #PreProcess Data
-    if task == 'translation':
-        processed = process_translation_data()
-    elif task == 'dialogue':
-        processed = process_dialogue_data()
-    elif task == 'summarization':
-        processed = process_summarization_data()        
-
-    #Train Tokenizer
-    train_tokenizer(task)
-
-    #Save Data
-    save_data(task, processed)
+    processed = data_processing()        
 
 
 
